@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:ital,wght@1,400;1,700&family=Poppins:wght@100;200;400;600&family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+.top-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f8d497;
+    height:40px;
+}
+#logo {
+    font-family: 'playfair display', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar ul li {
+    font-family: 'playfair display', sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0 10px;
+
+}
+.navbar a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 75vh;
+    margin-top: -20px;
+  
+}
+.round-bg {
+    position: absolute;
+    top: 40px;
+    right: 220px;
+    width: 300px;
+    height: 300px;
+    background-color: #FEC157;
+    border-radius: 150px;
+}
+.bg-image img {
+    position: absolute;
+    left:-90px;
+    right: -50px;
+}
+.text-head {
+    position:absolute;
+    left: 20px;
+    top: 150px;
+    width: 400px;
+    height: 400px; 
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.text-head h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.text-head p {
+    margin: 20px;
+    font-size: 18px;
+}
+.text-head  a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.text-head a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #ffa916;
+}
+.text-head span {
+    color: #ffa916;
+    font-weight: bolder;
+}
+.btn {
+    color: orange;
+    border: none;
+    width: 90px;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: .4rem;
+}
+.btn:hover {
+    background-color: orange;
+    color: #f6f6f6;
+    cursor: pointer;
+}
+.icon-card {
+    position: relative;
+    float: right;
+    padding: 10px;
+    
+
+}
+
+.icon {
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffa916;
+    width: 50px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 4px;
+}
+.icon:hover{
+    background: #f6f6f6;
+    cursor: pointer;
+}
+.icon .fa-whatsapp:hover {
+    color: #25D366;
+}
+.icon .fa-facebook:hover {
+    color: #4267B2;
+}
+.icon .fa-instagram:hover {
+    color: #833AB4;
+}
+
+
+.heading {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.top-heading {
+    position: absolute;
+    left: 500px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    background: #ffa916;
+    width: 200px;    
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.menu-list {
+    display: flex;
+    margin: 60px;
+}
+.food-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e5e5e5;
+    width: 200px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.food-box:hover {
+    background: #FEC157;
+    cursor: pointer;
+    color: #e5e5e5;
+
+}
+.food-box img {
+    margin: 20px;
+    text-align: center;
+}
+ 
+.food-box-title {
+    text-align: center;
+    margin: 15px;
+}
+.info-card {
+    background: #FEC157;
+    width: 100%;
+    height: 60vh;
+}
+.fav-top-food {
+    background: #e5e5e5;
+    width: 100%;
+    height: 40vh;
+}
+
